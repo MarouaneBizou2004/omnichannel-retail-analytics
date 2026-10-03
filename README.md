@@ -360,8 +360,7 @@ streamlit run dashboards/interactive_app.py
 ## Author & Contact
 
 **Senior Analytics Engineer & Data Scientist**  
-- **GitHub:** [github.com/your-username](https://github.com)  
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com)  
-- **Email:** your.email@example.com  
+- **GitHub:** [github.com/MarouaneBizou2004](https://github.com)  
+- **Email:** mmarouane365@gmail.com  
 
 *Project developed independently as a production-quality enterprise portfolio showcase.*
