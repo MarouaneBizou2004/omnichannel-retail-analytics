@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and testing
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data Files (Reproducible via python main.py or make_dataset.py)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.db
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,98 @@
+{
+    "cross_validation_benchmark": {
+        "Baseline (Dummy)": {
+            "roc_auc_mean": 0.5052,
+            "roc_auc_std": 0.0099,
+            "pr_auc_mean": 0.8837,
+            "pr_auc_std": 0.0022,
+            "f1_mean": 0.8771,
+            "precision_mean": 0.8839,
+            "recall_mean": 0.8705
+        },
+        "Logistic Regression": {
+            "roc_auc_mean": 0.9487,
+            "roc_auc_std": 0.0079,
+            "pr_auc_mean": 0.9929,
+            "pr_auc_std": 0.0013,
+            "f1_mean": 0.9259,
+            "precision_mean": 0.9868,
+            "recall_mean": 0.8721
+        },
+        "Random Forest": {
+            "roc_auc_mean": 0.9419,
+            "roc_auc_std": 0.0093,
+            "pr_auc_mean": 0.9918,
+            "pr_auc_std": 0.0016,
+            "f1_mean": 0.9415,
+            "precision_mean": 0.9747,
+            "recall_mean": 0.9105
+        },
+        "Gradient Boosting": {
+            "roc_auc_mean": 0.9418,
+            "roc_auc_std": 0.0119,
+            "pr_auc_mean": 0.9917,
+            "pr_auc_std": 0.0022,
+            "f1_mean": 0.9394,
+            "precision_mean": 0.9759,
+            "recall_mean": 0.9055
+        }
+    },
+    "holdout_test_metrics": {
+        "roc_auc": 0.9491,
+        "pr_auc": 0.993,
+        "f1_score_at_0.5": 0.9313,
+        "precision_at_0.5": 0.9901,
+        "recall_at_0.5": 0.8791,
+        "brier_score": 0.0854,
+        "confusion_matrix_at_0.5": [
+            [
+                99,
+                7
+            ],
+            [
+                96,
+                698
+            ]
+        ]
+    },
+    "business_threshold_optimization": {
+        "optimal_threshold": 0.13,
+        "max_profit_test_cohort": 20004.0,
+        "profit_at_default_05": 18741.0,
+        "annual_scaled_net_profit": 100020.0,
+        "annual_lift_over_default": 6315.0,
+        "precision_at_optimal": 0.9525,
+        "recall_at_optimal": 0.9597,
+        "f1_at_optimal": 0.9561
+    },
+    "features_used": {
+        "numerical": [
+            "age",
+            "tenure_days",
+            "recency_days",
+            "frequency",
+            "total_net_spend",
+            "avg_order_value",
+            "max_order_value",
+            "total_gross_profit",
+            "total_items",
+            "avg_items_per_order",
+            "avg_discount_received",
+            "return_rate",
+            "cancellation_rate",
+            "orders_last_30d",
+            "orders_last_90d",
+            "order_velocity_ratio",
+            "distinct_categories",
+            "gross_margin_ratio"
+        ],
+        "categorical": [
+            "region",
+            "acquisition_channel",
+            "loyalty_tier",
+            "primary_channel",
+            "primary_payment",
+            "income_bracket"
+        ]
+    }
+}
